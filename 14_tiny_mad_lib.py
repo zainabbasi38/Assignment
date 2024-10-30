@@ -13,7 +13,7 @@ def main():
     verb : str = input("Please enter an verb and press enter: ")
     # print out all inputs in a sentence
 
-    print(SENTENCE_START + adjective + " " + noun + " " + verb + "!")
+    print(SENTENCE_START + adjective + " " + noun + " " + verb + "")
 
-if __name__== "__main__":
+if __name__== "__main__": 
     main()
