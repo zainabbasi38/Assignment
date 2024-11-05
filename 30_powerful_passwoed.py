@@ -8,7 +8,7 @@ def login(email,stored_logins,password_to_check):
     return False
 
 def hash_password(password):
-
+ 
     return sha256(password.encode()).hexdigest()
 
 def main():
