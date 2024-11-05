@@ -7,7 +7,7 @@ Write a program that prints out the calls for a spaceship that is about to launc
 
 def main():
     for i in range(10,0,-1):
-        print(i)
+        print(i, end = " ")
 
     print("Liftoff")
 
